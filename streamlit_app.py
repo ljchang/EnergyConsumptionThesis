@@ -23,6 +23,7 @@ credentials:
     usernames: 
     -usernames.tolist()
 #need to create a list of the preauthorizes usernames and corresponding emails
+#my yaml isnt working so need to fix this 
 import yaml 
 from yaml.loader impirt SafeLoader 
 with open ('../config.yaml') as file

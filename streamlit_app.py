@@ -15,7 +15,7 @@ energy_consdata=pd.read_csv('Partcipant Tracking Spreadsheet - Example Energy Da
 df_energy_data=pd.DataFrame(energy_consdata, columns=['username', 'new energy cons', 'old energy cons', 'energy change'])
 
 #Participants must enter username and email to login
-pip install streamlit-authenticator
+#pip install streamlit-authenticator
 import streamlit_authenticator as stauth
 #create YAML file 
 credentials:

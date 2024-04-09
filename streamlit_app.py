@@ -19,9 +19,9 @@ df_energy_data=pd.DataFrame(energy_consdata, columns=['username', 'new energy co
 import streamlit_authenticator as stauth
 #create YAML file 
 credentials:
-preauthorized:
-  usernames: 
-  -usernames.tolist()
+  preauthorized:
+    usernames: 
+    -usernames.tolist()
 #need to create a list of the preauthorizes usernames and corresponding emails
 import yaml 
 from yaml.loader impirt SafeLoader 

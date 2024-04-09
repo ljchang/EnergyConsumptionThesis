@@ -39,3 +39,4 @@ name, authentucation_status, username= authenticator.login('Login', 'main')
 
 #create buttons for seeing experimental groups (1. your energy cons vs others in the same condition, your house community energy cons, energy cons for your class year)
 #need a better way to store energy data in the sheets
+#build ranked leaderboard

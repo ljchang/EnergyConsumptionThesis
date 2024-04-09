@@ -12,7 +12,7 @@ st.title('Energy Consumption Leaderboard')
 
 #load energy consumption data
 energy_consdata=pd.read_csv('Partcipant Tracking Spreadsheet - Example Energy Data.csv')
-df_energy_data=pd.DataFrame(energy_consdata, columns=['username', 'new energy cons', 'old energy cons', 'energy change')
+df_energy_data=pd.DataFrame(energy_consdata, columns=['username', 'new energy cons', 'old energy cons', 'energy change')]
 
 
 

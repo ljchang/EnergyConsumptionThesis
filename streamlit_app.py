@@ -1,4 +1,3 @@
-
 #Import packages
 import streamlit as st
 import pandas as pd
@@ -8,5 +7,6 @@ import numpy as np
 participant_progress=pd.read_csv('/content/Partcipant Tracking Spreadsheet - Eligible Subs Progress Survey Comp.csv')
 df_partic_prog= pd.DataFrame(participant_progress, columns=['Eligible Participant', 'Assigned Username'])
 usernames=df_partic_prog['Assigned Username']
+st.write(usernames)
 
 
